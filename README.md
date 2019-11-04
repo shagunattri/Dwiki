@@ -13,4 +13,7 @@ This app guides through the steps required to build an 8 ball app and you will b
  A magical 8 ball app, it will give you the answers to all the tricky questions in life. You can make the ball change at the press of a button. 
 
 
+## ScreenShot
+
+![Screenshot_2019-11-04-20-48-39-500_co appbrewery magic8ball](https://user-images.githubusercontent.com/29366864/68132415-adc8fc80-ff44-11e9-8534-70e8bae9fb24.jpg)
 
