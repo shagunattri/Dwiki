@@ -1,6 +1,6 @@
 ## Dwiki
 
->Download wikipedia articles fom the CLI
+>Download wikipedia articles from the CLI
 
 <p align="center">
   <a href="https://github.com/shagunattri/pwgen/pulls">
