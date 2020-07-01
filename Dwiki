@@ -15,15 +15,12 @@ driver = webdriver.Chrome(options=chrome_options)
 def usage():
     print('''
             Dwiki - Download wikipedia articles for the CLI\n
-        
-
-        python Dwiki <query>
+            
+            python Dwiki <query>
 
             Usage:
                     
-
-            $ python Dwiki github  #downloads the wikipedia article as a pdf
-
+            $ python Dwiki github  #Downloads the wikipedia article as a pdf
         ''')
 
 input = sys.argv[1:]
@@ -36,5 +33,5 @@ try:
     driver.find_element_by_xpath("//html/body/div[3]/div[3]/div[3]/form/div/span/span/button").click()
     print("[+] PDF Downloaded..")
 except KeyboardInterrupt:
-        raise Exception('Interrupted..!')
+        raise Exception('Download Interrupted..!')
         usage()

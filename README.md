@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
         Eg:
 
-            python Dwiki http
+            python Dwiki http  #Downloads the wikipedia article as a pdf
 ```
 
 ### Notes
