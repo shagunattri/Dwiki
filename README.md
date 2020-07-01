@@ -28,29 +28,40 @@
 ****
 
 
-## Written in
+### Written in
 - python3
 
 
 ***Libraries used:***
 - selenium
 
-## Installation:
-```console
-$ git clone https://github.com/shagunattri/wikimedia.git
+### Installation
 
-$ cd wikimedia/
+```bash
+git clone https://github.com/shagunattri/wikimedia.git
 
-$ pip install -r requirements.txt
+cd wikimedia/
 
-$ python wikimedia.py http
+pip install -r requirements.txt
+
+```
+### Usage
+
+```bash
+        Usage: 
+
+            python wikimedia.py <query>
+
+        Eg:
+
+            python wikimedia.py http
 ```
 
-## Contributing
+### Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,before making a change.
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
