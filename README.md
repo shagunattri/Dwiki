@@ -50,11 +50,11 @@ pip install -r requirements.txt
 ```bash
         Usage: 
 
-            python wikimedia.py <query>
+            python Dwiki query>
 
         Eg:
 
-            python wikimedia.py http
+            python Dwiki http
 ```
 
 ### Notes
