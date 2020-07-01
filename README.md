@@ -1,4 +1,4 @@
-## wikimedia
+## Dwiki
 
 >Download wikipedia articles fom the CLI
 
@@ -38,9 +38,9 @@
 ### Installation
 
 ```bash
-git clone https://github.com/shagunattri/wikimedia.git
+git clone https://github.com/shagunattri/Dwiki.git
 
-cd wikimedia/
+cd Dwiki/
 
 pip install -r requirements.txt
 
@@ -56,6 +56,14 @@ pip install -r requirements.txt
 
             python wikimedia.py http
 ```
+
+### Notes
+
+Windows users might find errors with chromedriver versions as selenium requires the latest version of chromedriver and it's PATH to work properly.
+
+Make sure you look at updating your chromedriver and it's PATH.
+
+Linux users should be fine ;)
 
 ### Contributing
 
