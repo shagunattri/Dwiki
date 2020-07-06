@@ -26,12 +26,13 @@ def usage():
 input = sys.argv[1:]
 args = (' '.join(input))
 
+print("[+] Downloading PDF...")
 try:
     link = 'https://en.wikipedia.org/w/index.php?title=Special:ElectronPdf&page={}&action=show-download-screen'
     open = link.format(str(args))
     driver.get(open)
     driver.find_element_by_xpath("//html/body/div[3]/div[3]/div[3]/form/div/span/span/button").click()
-    print("[+] PDF Downloaded..")
+    print("[+] Done...")
 except KeyboardInterrupt:
         raise Exception('Download Interrupted..!')
         usage()
